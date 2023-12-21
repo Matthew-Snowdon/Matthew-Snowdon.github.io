@@ -254,6 +254,121 @@ blockquote > cite {font-weight: 400;font-size: 14px;display: block;}
 }
 
 /* ===================================
+    Team-section
+====================================== */
+.team-section{
+  background-color: #f9f9f9;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+/*Row-1*/
+.team-section .row-1{
+  margin-bottom: 115px;
+}
+.team-section .row-1 .subheading{
+  margin-bottom: 25px;
+}
+.team-section .row-1 .heading {
+  text-align:center;
+}
+.team-section .row-1 .subheading {
+  text-align:center;
+}
+.team-section .row-1 .heading span{
+  color: #fc294b;
+}
+/*Row-2*/
+.team-section .row-2 .team-col{
+  max-width: 300px;
+}
+.team-section .row-2 .image img{
+  width: 100%;
+}
+.team-section .row-2 .team-col .text-column{
+  background-color: #fff;
+  padding: 30px 20px;
+}
+.team-section .row-2 .team-col .text-column .heading{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.team-section .row-2 .team-col .text-column .subheading{
+  background: linear-gradient(to right, #fc294b 30%, #913596 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  text-align: center;
+}
+.team-section .row-2 .team-col .text-column .text{
+  text-align: center;
+}
+.team-section .social-icons{
+  text-align: center;
+}
+.team-section .row-2 .team-col .image{
+  overflow: hidden;
+}
+.team-section .row-2 .team-col .image img{
+  transition: all .5s ease;
+}
+.team-section .row-2 .team-col:hover{
+  cursor: pointer;
+}
+.team-section .row-2 .team-col:hover img{
+  transform: scale(1.1);
+  transition: all .5s ease;
+}
+
+/*Team Section*/
+.team-section .row-2 .team-col .text-column{
+  padding: 30px 20px;
+}
+
+/*Team Section*/
+.team-section .row-2 .team-col .text-column .heading{
+  font-size: 25px;
+}
+
+/*Social icons*/
+ .social-icons ul {
+  margin-bottom: 0px;
+}
+
+ .social-icons li {
+  display: inline-block;
+}
+
+
+ .social-icons ul li a {
+  border-radius: 50%;
+  color: #000;
+  height: 30px;
+  line-height: 32px;
+  width: 30px;
+  font-size: 14px;
+  border: 1px solid transparent;
+  display: block;
+  /*overflow: hidden;*/
+  text-align: center;
+}
+/*Social icons Hover*/
+/*Hover Style 1*/
+ .hover:hover{color: #fff !important; transition: 0.5s ease;
+  background: linear-gradient(to bottom, #fc294b 0%, #913596 93%);}
+
+/*Social icons background hover*/
+.facebook-hover:hover{color: #fff; transition: 0.5s ease; background-color: #4267B2;}
+.twitter-hover:hover{color: #fff; transition: 0.5s ease; background-color: #1DA1F2;}
+.google-plus-hover:hover{color: #fff; transition: 0.5s ease; background-color: #db4a39;}
+.linked-in-hover:hover{color: #fff; transition: 0.5s ease; background-color: #2867B2;}
+.instagram-hover:hover{color: #fff; transition: 0.5s ease; background-color: #C13584;}
+.gmail-hover:hover{color: #fff; transition: 0.5s ease; background-color: #D44638;}
+.instagram-hover:hover{color: #fff;  transition: all .5s ease;
+  background:linear-gradient(to bottom, #aa2fb5 0%, #f1762c 93%)!important;}
+
+
+/* ===================================
    Social Icon Hover
 ====================================== */
 

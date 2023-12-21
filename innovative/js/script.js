@@ -55,6 +55,52 @@ jQuery(function ($) {
             scrollTop: $(this.hash).offset().top - 60}, 1200);
     });
 
+    /* ===================================
+    Cube Portfolio
+======================================*/
+
+$('#js-grid-mosaic-flat').cubeportfolio({
+    filters: '#js-filters-mosaic-flat',
+    layoutMode: 'mosaic',
+    sortByDimension: true,
+    mediaQueries: [{
+        width: 1500,
+        cols: 6,
+    }, {
+        width: 1100,
+        cols: 4,
+    }, {
+        width: 800,
+        cols: 3,
+    }, {
+        width: 480,
+        cols: 1,
+        options: {
+            gapHorizontal: 15,
+            gapVertical: 15,
+        }
+    }],
+    defaultFilter: '*',
+    animationType: 'fadeOutTop',
+    gapHorizontal: 0,
+    gapVertical: 0,
+    gridAdjustment: 'responsive',
+    caption: 'zoom',
+
+    // lightbox
+    lightboxDelegate: '.cbp-lightbox',
+    lightboxGallery: true,
+    lightboxTitleSrc: 'data-title',
+
+    plugins: {
+        loadMore: {
+            element: '#js-loadMore-mosaic-flat',
+            action: 'click',
+            loadItems: 3,
+        }
+    },
+});
+
 
     /* =====================================
            Parallax
